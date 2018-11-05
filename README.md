@@ -9,7 +9,7 @@ This is a personal repo as a practice for algorithm practicing.
 * 背包
 * LIS（longest increasing sequence
 * LCS (longest common sequence)
-问题：(week1)
+#####问题：(week1)
 - [x] **hdu2084 数塔**：算是比较简单的数学归纳法思想。 
 - [ ] **hdu2081** 
 - [ ] **hdu2044**
