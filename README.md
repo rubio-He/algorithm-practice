@@ -1,4 +1,5 @@
-# README
+# 算法练习
+> 此git主要是包含算法的联系和road map。以及个人的笔记和思路。
 This is a personal repo as a practice for algorithm practicing.
 
 ## ROADAMP
