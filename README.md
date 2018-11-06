@@ -11,7 +11,7 @@ This is a personal repo as a practice for algorithm practicing.
 * LCS (longest common sequence)
 ##### 问题：(week1)
 - [x] **hdu2084 数塔**：算是比较简单的数学归纳法思想。 
-- [ ] **hdu2081** 
+- [x] **hdu2018** 数学归纳法。在计算的时候记得想清楚每次迭代的时候，下一轮新的值是多少。 
 - [ ] **hdu2044**
 - [ ] **hdu2041**
 - [ ] **hdu2050**
