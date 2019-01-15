@@ -21,3 +21,4 @@ This is a personal repo as a practice for algorithm practicing.
 - [x] **zoj3747** 👾难题，需要转换思路，**n个数中求至少k个， 就等于n个数至多n个 减去 至多k-1个**
 - [ ] **hdu4747**
 - [x] **hdu4055** 👾难题, 计数DP，超级好题，多想想。
+- [ ] **hdu1864** 
