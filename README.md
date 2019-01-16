@@ -22,3 +22,4 @@ This is a personal repo as a practice for algorithm practicing.
 - [ ] **hdu4747**
 - [x] **hdu4055** 👾难题, 计数DP，超级好题，多想想。
 - [ ] **hdu1864** 
+- [ ] **poj1185** 状态压缩dp
