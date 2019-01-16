@@ -1,6 +1,6 @@
-II
-ID
-DI
-DD
-?D
-??
+5 4
+PHPP
+PPHH
+PPPP
+PHPP
+PHHP
