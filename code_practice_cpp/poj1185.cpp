@@ -25,14 +25,14 @@ int main(){
     for(int i = 0; i < (1 << m); i++){
         if(i & i << 1) continue;
         if(i & i << 2 ) continue;
-        state[nums++] = i;
+    
         int k = i;
         while(k){
-            if(k & 1) soldier[i]++;
+            soldier[nums]+=k&1;
             k = k >>1;
         }
+        state[nums++] = i;
     }
-    for(int i=0; i<nums; i++) printf("%d %d\n",state[i],soldier[i]);
     for(int i = 0; i < nums; i++){
         if( base[0] & state[i]) continue;
         dp[0][i][0] = soldier[i];
