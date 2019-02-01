@@ -1,6 +1,6 @@
 #include<cstdio>
-const int Mod = 10e9 + 7;
-int a[505][505], b[505][505], n, p, m; 
+const int Mod = 1e9 + 7;
+int a[501][501], b[501][501], n, p, m; 
 int main() {
 	scanf("%d%d%d", &n,&p,&m);
 	int i, j;
@@ -18,7 +18,3 @@ int main() {
 	}
 	return 0;
 }
-
-
-
-
