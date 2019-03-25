@@ -3,7 +3,7 @@
 This is a personal repo as a practice for algorithm practicing.
 
 ## ROADAMP
-### DP 联系规划
+### DP 规划
 #### 1. 简单基础dp
 比较简单的DP问题，转移方程比较好想到。 分类：
 * 数学归纳法思想
@@ -24,6 +24,7 @@ This is a personal repo as a practice for algorithm practicing.
 - [ ] **hdu1864** 
 - [ ] **poj1185** 状态压缩dp 
 
+### 搜索 
 
 Reading List
 - https://blog.csdn.net/accry/article/details/6607703
