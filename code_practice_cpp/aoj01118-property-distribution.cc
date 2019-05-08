@@ -15,7 +15,7 @@ void dfs(int i, int j) {
 int main() {
    // freopen("input.txt", "r", stdin);
     while(scanf("%d%d",&r, &c)){
-        if(r == 0) break;
+        if(r == 0 && c == 0) break;
         for(int i =0; i < r; i++)  scanf("%s", board[i]);
         int res = 0;
         for(int i =0; i < r; i++){
