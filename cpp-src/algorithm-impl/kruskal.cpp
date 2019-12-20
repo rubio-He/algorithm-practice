@@ -45,7 +45,7 @@ int Kruskal(int n, int m, vector<edge>& E)
        int NumEdge = 0;                                       //记录最小生成树边数
        for (int i = 0; i < n; i++)                            //初始化并查集
               father[i] = i;
-       sort(E.begin(), E.end(), cmp);                         //所有边按边权从小到大排序
+       Sort(E.begin(), E.end(), cmp);                         //所有边按边权从小到大排序
        for (int i = 0; i < m; ++i)                            //枚举所有边
        {
               int faU = findFather(father, E[i].u);           //查询端点u所在集合的根结点
