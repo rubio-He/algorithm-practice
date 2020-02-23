@@ -32,9 +32,9 @@ bool find(string s, trie t) {
   }
   return node->end;
 }
-
 int main(){
   trie test_trie = buildTrie();
   insert("apple", test_trie);
   cout << find("apple", test_trie);
-return 0;}
+  return 0;
+}
