@@ -36,7 +36,7 @@ typedef pair<int, int> P;
 #define inf 0x7fffffff  
 
 int n, m;
-int arr[1000005] ; 
+int arr[1000005]; 
 int solve()
 {
     int dp[n+1];
@@ -46,7 +46,7 @@ int solve()
     int res;
     FOR(i,1,m+1){
         res = -inf;
-        FOR(j,1,n+1){
+        FOR(j,1,n+2){
             dp[j] = MAX(dp[j-1], max[j-1]) + arr[j];
             max[j-1]=res;
             res= MAX(res, dp[j]);    
